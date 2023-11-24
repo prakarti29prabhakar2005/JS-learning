@@ -27,3 +27,20 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world!");
 }
+
+/* ************************* Stack and heap memory ******************************* */
+
+/* Stack (Primitive), Heap (Non-Primitive)*/
+
+//heap 
+let userOne = {
+    email : "userOne@google.com",
+    upi : "userOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "newEmail@google.com"
+
+console.log(userOne.email); //newEmail@google.com
+console.log(userTwo.email); //newEmail@google.com
