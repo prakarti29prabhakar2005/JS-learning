@@ -37,3 +37,17 @@ let someNumber = 33
 let stringNumber = String(someNumber);
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+/* ************************* Operations *********************** */
+let str1 = "hello"
+let str2 = " world!"
+let str3 = str1 + str2
+console.log(str3); //hello world!
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+
+console.log(+true); //1
+console.log(+""); //0
