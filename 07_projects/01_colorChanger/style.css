@@ -1,0 +1,42 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h1 {
+    display: flex;
+    justify-content: center;
+ }
+ button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .button : :hover {
+    cursor: pointer;
+ } */
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    align-items: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
